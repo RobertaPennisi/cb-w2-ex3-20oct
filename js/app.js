@@ -2,7 +2,7 @@
 let str = prompt("Inserisci 5 nomi separati da una virgola", 'Stefania,Sandro,Maria,Giacomo,Giorgia').split(',');
 let arrAge = [32, 21, 47, 12, 78];
 
-// con questo creo un array dalla stringa data dal prompt
+
 // posso aggiungere split alla fine del prompt => let strName = str.split(','); -> str diventa array ugualmente
 
 
