@@ -1,4 +1,4 @@
-//             0     1        2         3       4
+//             0     1        2         3       4   -->array = lista ordinata di elementi, l'indice parte da 0
 const arr = ["Dog","Cat","Goldfish","Monkey","Panda"];
 
 // questo aggiunge elementi alla coda dell'array
@@ -15,3 +15,12 @@ let result = arr.splice(2, 2);
 
 console.log(arr);
 console.log(result);
+
+//array concatenati
+let arr1 = [];
+arr1.push('Ignazio','Marco','Stefania');
+
+let arr2 = [1,2,3,4,5];
+let arr3 = ['fffff' , 'ggggg'];
+
+console.log(arr1.concat(arr2, arr3));
